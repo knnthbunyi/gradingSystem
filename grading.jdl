@@ -1,0 +1,13 @@
+
+entity Subject {
+	name String,
+	code String
+}
+
+dto * with mapstruct
+
+// Set service options to all except few
+//service * with serviceImpl except Employee, Job
+service * with serviceImpl
+// Set an angular suffix
+// angularSuffix * with mySuffix

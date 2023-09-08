@@ -1,0 +1,24 @@
+{
+  "applications": "*",
+  "changelogDate": "20230819152352",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "subject",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Subject",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
